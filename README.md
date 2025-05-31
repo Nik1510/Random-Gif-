@@ -20,9 +20,21 @@ Check out the demo video on Twitter:
 
 ---
 
-## ⚙️ How to Run Locally
+## 🔑 How to Get Your Giphy API Key
 
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/Nik1510/random-gif-generator.git
-   cd random-gif-generator
+To fetch GIFs from Giphy, you need an API key. Follow these simple steps to get yours:
+
+1. **Go to the Giphy Developers website:**  
+   [https://developers.giphy.com/](https://developers.giphy.com/)
+
+2. **Sign up or log in** with your Giphy account.
+
+3. **Create a new app** by clicking on **“Create an App”** in your dashboard.
+
+4. Choose the **API** option (usually “**API Key**”) and give your app a name.
+
+5. After submitting, you will receive an **API key** — a string of letters and numbers.
+
+6. Copy that API key and paste it into your project where it says:  
+   ```js
+   const apiKey = 'YOUR_API_KEY';
